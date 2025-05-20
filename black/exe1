@@ -1,0 +1,9 @@
+#from prometheus client import start_http_server,counter,Gauge.
+ 
+ import time
+ import random
+
+ REQUEST_COUNT = Counter ("app_requst_total",Total number of requests received")
+                          
+
+                         
